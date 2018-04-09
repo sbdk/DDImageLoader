@@ -12,6 +12,8 @@
 		BEBB599D2079360A0013BC02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBB599B2079360A0013BC02 /* Main.storyboard */; };
 		BEBB599F2079360C0013BC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBB599E2079360C0013BC02 /* Assets.xcassets */; };
 		BEBB59A22079360C0013BC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBB59A02079360C0013BC02 /* LaunchScreen.storyboard */; };
+		BEBB59AA207936E20013BC02 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBB59A9207936E20013BC02 /* ImageTableViewCell.swift */; };
+		BEBB59AC20793E540013BC02 /* SLWebImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBB59AB20793E540013BC02 /* SLWebImageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BEBB599E2079360C0013BC02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEBB59A12079360C0013BC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEBB59A32079360C0013BC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBB59A9207936E20013BC02 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		BEBB59AB20793E540013BC02 /* SLWebImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLWebImageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				BEBB59972079360A0013BC02 /* AppDelegate.swift */,
 				BEBB59992079360A0013BC02 /* ViewController.swift */,
+				BEBB59A9207936E20013BC02 /* ImageTableViewCell.swift */,
 				BEBB599B2079360A0013BC02 /* Main.storyboard */,
 				BEBB599E2079360C0013BC02 /* Assets.xcassets */,
 				BEBB59A02079360C0013BC02 /* LaunchScreen.storyboard */,
 				BEBB59A32079360C0013BC02 /* Info.plist */,
+				BEBB59AB20793E540013BC02 /* SLWebImageManager.swift */,
 			);
 			path = SLImageLoader;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEBB59AA207936E20013BC02 /* ImageTableViewCell.swift in Sources */,
+				BEBB59AC20793E540013BC02 /* SLWebImageManager.swift in Sources */,
 				BEBB599A2079360A0013BC02 /* ViewController.swift in Sources */,
 				BEBB59982079360A0013BC02 /* AppDelegate.swift in Sources */,
 			);
